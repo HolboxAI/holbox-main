@@ -20,9 +20,9 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><Link href="/company/about-us" className="text-sm text-gray-600 hover:text-gray-900">About Us</Link></li>
-              <li><Link href="/company/blog" className="text-sm text-gray-600 hover:text-gray-900">Blog</Link></li>
-              <li><Link href="/company/contact-us" className="text-sm text-gray-600 hover:text-gray-900">Contact Us</Link></li>
+              <li><Link href="/company/about" className="text-sm text-gray-600 hover:text-gray-900">About Us</Link></li>
+              {/* <li><Link href="/company/blog" className="text-sm text-gray-600 hover:text-gray-900">Blog</Link></li> */}
+              <li><Link href="/contact" className="text-sm text-gray-600 hover:text-gray-900">Contact Us</Link></li>
             </ul>
           </div>
           
@@ -49,7 +49,7 @@ export default function Footer() {
             <a href="https://www.linkedin.com/company/holboxai/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600">
               <Linkedin size={18} />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600">
+            <a href="https://twitter.com/holboxai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600">
               <Twitter size={18} />
             </a>
           </div>

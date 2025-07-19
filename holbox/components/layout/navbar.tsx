@@ -138,10 +138,10 @@ const Navbar: React.FC = () => {
       active: activeNav === 'Solutions',
     },
     {
-      title: 'Company',
+      title: 'About Us',
       items: [
         { title: 'About Us', href: '/company/about' },
-        { title: 'Blog', href: '/company/blog' },
+        // { title: 'Blog', href: '/company/blog' },
       ],
       active: activeNav === 'Company',
     },

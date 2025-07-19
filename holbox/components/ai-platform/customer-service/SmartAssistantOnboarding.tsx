@@ -90,7 +90,7 @@ export default function SmartAssistantOnboarding() {
       <Link href="/contact" passHref>
         <button className="px-8 py-4 bg-gradient-to-r from-[hsl(221,70%,50%)] to-[hsl(221,70%,40%)] text-white font-semibold rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2">
           <Zap className="w-5 h-5" />
-          <span>Start Free Trial</span>
+          <span>Request Free Trial</span>
         </button>
       </Link>
 
@@ -100,7 +100,7 @@ export default function SmartAssistantOnboarding() {
         rel="noopener noreferrer"
         className="px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-xl hover:border-[hsl(221,70%,50%)] hover:text-[hsl(221,70%,50%)] transition-all duration-300 text-center"
       >
-        Schedule Demo
+        Try our demo
       </a>
     </div>
           </div>
