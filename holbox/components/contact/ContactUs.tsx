@@ -1,7 +1,8 @@
 "use client"
 
-import { Mail, MapPin } from "lucide-react"
+import { Mail, MapPin, Phone } from "lucide-react"
 import { useState } from "react"
+
 
 export default function ContactUs() {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -17,8 +18,9 @@ export default function ContactUs() {
       name: formData.get("name"),
       email: formData.get("email"),
       subject: formData.get("company") || "No Subject",
+      Phone: formData.get("phone") || "No Phone",
+      company: formData.get("company") || "No Company",
       message: formData.get("message"),
-      
     }
 
     try {
