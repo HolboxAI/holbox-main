@@ -83,7 +83,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <a 
-              href="https://www.holbox.ai/type-of-service"
+              href="https://www.holbox.ai/solutions"
               className="flex items-center justify-center px-8 py-4 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
               style={{
                 backgroundColor: 'hsl(221, 70%, 50%)',
@@ -101,7 +101,7 @@ export default function HeroSection() {
             </a>
 
             <a 
-              href="https://www.holbox.ai/contact-us"
+              href="https://www.holbox.ai/contact"
               className="flex items-center justify-center px-8 py-4 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
               style={{
                 border: '2px solid hsl(221, 50%, 70%)',
