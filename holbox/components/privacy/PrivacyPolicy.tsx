@@ -11,9 +11,9 @@ export default function PrivacyPolicy() {
           <div className="inline-block px-4 py-2 bg-[hsl(221,70%,95%)] text-[hsl(221,70%,50%)] rounded-full text-sm font-medium mb-4">
             PRIVACY POLICY
           </div>
-          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Summertown Software LLP Privacy Policy</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Holbox AI Privacy Policy</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            This privacy policy sets out how Summertown Software LLP collects, uses, discloses, and protects your
+            This privacy policy sets out how Holbox AI collects, uses, discloses, and protects your
             personal data when you use our website, services, AI platform, and related offerings.
           </p>
           <div className="mt-6 text-sm text-gray-500">Effective Date: (to be filled)</div>
@@ -103,7 +103,7 @@ export default function PrivacyPolicy() {
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">Data Controller</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Summertown Software LLP is the data controller for the personal data collected through our website and
+                  Holbox AI is the data controller for the personal data collected through our website and
                   services (unless otherwise stated). When we act as a processor (e.g. under contract for our clients),
                   we will process personal data in accordance with their documented instructions.
                 </p>
@@ -431,7 +431,7 @@ export default function PrivacyPolicy() {
 
             <p className="text-gray-600 leading-relaxed mb-4">We may share your data with:</p>
             <ul className="list-disc list-inside text-gray-600 space-y-2 ml-4">
-              <li>Affiliates/subsidiaries of Summertown Software LLP if needed for operations.</li>
+              <li>Affiliates/subsidiaries of Holbox AI if needed for operations.</li>
               <li>
                 Service providers/contractors who help with hosting, payment processing, customer support, analytics,
                 etc. They process data on our behalf and under our instructions.
@@ -463,7 +463,7 @@ export default function PrivacyPolicy() {
             </div>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              As Summertown Software LLP operates globally (or may use cloud / hosting / third-party services in
+              As Holbox AI operates globally (or may use cloud / hosting / third-party services in
               different countries), your personal data may be transferred to, stored in, or processed in countries other
               than your country of residence.
             </p>
@@ -668,13 +668,13 @@ export default function PrivacyPolicy() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            name: "Privacy Policy - Summertown Software LLP",
+            name: "Privacy Policy - Holbox AI",
             description:
-              "Privacy policy for Summertown Software LLP detailing how we collect, use, and protect your personal data.",
+              "Privacy policy for Holbox AI detailing how we collect, use, and protect your personal data.",
             url: "https://holbox.ai/privacy-policy",
             mainEntity: {
               "@type": "Organization",
-              name: "Summertown Software LLP",
+              name: "Holbox AI",
               email: "admin@holbox.ai",
             },
           }),
