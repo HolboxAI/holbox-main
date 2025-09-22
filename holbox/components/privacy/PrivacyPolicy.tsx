@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
             This privacy policy sets out how Holbox AI collects, uses, discloses, and protects your
             personal data when you use our website, services, AI platform, and related offerings.
           </p>
-          <div className="mt-6 text-sm text-gray-500">Effective Date: (to be filled)</div>
+         
         </div>
 
         {/* Quick Navigation */}
